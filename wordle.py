@@ -1,6 +1,3 @@
-
-
-
 def solve(str):
     for i in range(6):
         flag = True
@@ -25,10 +22,8 @@ def solve(str):
                 print('_', end='')
         print('')
             
-
 import random
 yordlelist = ['accent', 'apple', 'bathe', 'potato', 'leetcode', 'salman', 'youtube', 'subscribe']
 number = random.randint(1, len(yordlelist))
-
 
 solve(yordlelist[number])
